@@ -7,14 +7,14 @@ JavaScript provides Template Strings which contains variables, like we already s
 
 ```javascript
 const variable = 'Hello'
-const text = `Another "${variable}" World!`
+const text = `Another ${variable} World!`
 ```
 
 As extension of that JavaScript provides the feature to define how the variables comes into the string by tagging the Template String with a name and providing a function with that name to handle it:
 
 ```javascript
 const variable = 'Hello'
-const text = tagName`Another "${variable}" World!`
+const text = tagName`Another ${variable} World!`
 
 function tagName(textFragments, ...values) {
   console.log(textFragments)

@@ -28,5 +28,7 @@ services:
       - 8080:8080
 ```
 
+And open `localhost:8080` (System: PostgreSQL, Server: db, Username: postgres, Password: example, Database: postgres).
+
 
 [Next](./9-QA.md)

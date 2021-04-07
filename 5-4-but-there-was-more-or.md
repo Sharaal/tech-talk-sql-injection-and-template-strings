@@ -12,7 +12,7 @@ e.g. an object with column names and values we want to use as `WHERE` condition:
 ```javascript
 const user = { email: 'tech-talk@sharaal.de', name: 'Sharaal' }
 
-const result = await sql.query(sql`
+const result = await sql.any(sql`
   SELECT * FROM users WHERE ${sql.conditions(user)}
 `)
 
@@ -26,7 +26,7 @@ And what about we accidentally forget to tagging a query with the `sql`?
 const email = 'tech-talk@sharaal.de'
 
 const query = `SELECT * FROM users WHERE email = "${email}"`
-const users = await sql.query(query)
+const users = await sql.any(query)
 
 // Own sql.query function throwing an error if we forgot the tagging
 ```

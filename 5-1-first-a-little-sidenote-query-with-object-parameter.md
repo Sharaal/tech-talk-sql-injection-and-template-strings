@@ -10,10 +10,11 @@ One additional info, because we will use of it here: `pg` also allows to give th
 ```javascript
 const email = 'tech-talk@sharaal.de'
 
-const query = `SELECT * FROM users WHERE email = $1`
+const query = { text: `SELECT * FROM users WHERE email = $1`, values: [email] }
 
-const result = await client.query({ text: query, values: [email] })
+const result = await client.query(query)
 
+console.log(query)
 console.log(result.rows)
 ```
 

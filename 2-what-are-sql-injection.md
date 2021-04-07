@@ -14,6 +14,7 @@ const query = `SELECT * FROM users WHERE email = '${email}'`
 
 const result = await client.query(query)
 
+console.log(query)
 console.log(result.rows)
 ```
 

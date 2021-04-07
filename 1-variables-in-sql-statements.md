@@ -15,7 +15,9 @@ Imagine you have a `users` table like this one:
 
 And you want to select an user with a specific email:
 
-`SELECT * FROM users WHERE email = 'tech-talk@sharaal.de'`
+```sql
+SELECT * FROM users WHERE email = 'tech-talk@sharaal.de'
+```
 
 But the email is a value stored in a variable in your JavaScript code:
 

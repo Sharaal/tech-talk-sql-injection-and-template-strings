@@ -1,0 +1,23 @@
+[Previous](./5-1-first-a-little-sidenote-query-with-object-parameter.md)
+
+
+# MVP of a SQL Template String library
+
+## How we want it looks like
+
+So first let us have a look how we want to use that library:
+
+```javascript
+const email = 'tech-talk@sharaal.de'
+
+const query = sql`SELECT * FROM users WHERE email = ${email}`
+
+const result = await client.query(query)
+
+console.log(result.rows)
+```
+
+It's easy, it's our first example with just adding the tag for the Template String naming `sql`.
+
+
+[Next](./5-3-the-tag-function.md)

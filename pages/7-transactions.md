@@ -14,18 +14,18 @@ Example doing transactions with `pg`:
 ```javascript
 try {
   // start new transaction
-  client->query('BEGIN')
+  client.query('BEGIN')
 
   // multiple operations
-  client->query('...')
-  client->query('...')
-  client->query('...')
+  client.query('...')
+  client.query('...')
+  client.query('...')
 
   // submit all changes after all operations are successfully done
-  client->query('COMMIT')
+  client.query('COMMIT')
 } catch (e) {
   // rollback all changes if there is an error
-  client->query('ROLLBACK')
+  client.query('ROLLBACK')
 }
 ```
 

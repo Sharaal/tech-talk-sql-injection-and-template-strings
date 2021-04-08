@@ -1,5 +1,7 @@
 # Tech Talk: SQL Injection and Template Strings
 
+[Introduction Relational SQL](./pages/0-introduction-relational-sql.md)
+
 1. [Variables in SQL Statements](./pages/1-variables-in-sql-statements.md)
 2. [What are SQL Injection](./pages/2-what-are-sql-injection.md)
 3. [How solve it with `pg`](./pages/3-how-solve-it-with-pg.md)

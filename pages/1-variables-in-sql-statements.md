@@ -1,4 +1,4 @@
-[Previous](./README.md)
+[Previous](./0-introduction-relational-sql)
 
 
 # Variables in SQL Statements

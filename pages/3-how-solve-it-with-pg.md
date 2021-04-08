@@ -26,4 +26,4 @@ But there are more complex use cases:
 For all of them you may also need to have a very easy solution to make it (in the best case) impossible a SQL Injection find a way into your code.
 
 
-[Next](./4-what-are-template-strings.md)
+[Next](./4-1-first-a-little-sidenote-query-with-object-parameter.md)

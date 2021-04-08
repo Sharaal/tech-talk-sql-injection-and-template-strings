@@ -18,6 +18,9 @@ Some migration tools have the concept of `up` and `down`, so every migration fil
 * It's double work to define both ways
 * Not compatible changes can't be reverted without losing data (e.g. drop a column, the `down` function can readd the column, but the data are already lost or needs to be readded via backups or co.)
 
+See also:
+![migrations up/down](../images/migrations-up-down.png)
+
 Other tools avoid this in favour of only going forward and if something was changed wrong, there will be added another change to make it right.
 
 ## Additional: Migrations for schema less databases

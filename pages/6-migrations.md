@@ -32,4 +32,4 @@ Alternatively you transform all existing data from the old to the new schema. An
 So yes, in my opinion every persistance layer, relation or schema less, needs migrations.
 
 
-[Next](./7-adminer.md)
+[Next](./7-transactions.md)

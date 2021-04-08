@@ -11,8 +11,9 @@
     5. [But there was more, or?](./pages/4-5-but-there-was-more-or.md)
 5. [What about `knex`](./pages/5-what-about-knex.md)
 6. [Migration Scripts](./pages/6-migrations.md)
-7. [Adminer](./pages/7-adminer.md)
-8. [QA](./pages/8-QA.md)
+7. [Transactions](./pages/7-transactions.md)
+8. [Adminer](./pages/8-adminer.md)
+9. [QA](./pages/9-QA.md)
 
 
 [Start](./pages/1-variables-in-sql-statements.md)

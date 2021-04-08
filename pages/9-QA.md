@@ -1,4 +1,4 @@
-[Previous](./7-adminer.md)
+[Previous](./8-adminer.md)
 
 
 # QA

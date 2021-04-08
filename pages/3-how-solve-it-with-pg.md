@@ -20,7 +20,7 @@ In this case `pg` cares about quoting the variable in the right way, so it's not
 
 But there are more complex use cases:
 * Having large statements with a lot of variables. You don't want to have a `$20` in the middle of your statement and need to count the variables in the array to know which variable it is
-* Not native variables like arrays or objects which needs to be transformed into comma separated paremters, where conditions or similar things
+* Not native variables like arrays or objects which needs to be transformed into comma separated parameters, where conditions or similar things
 * Identifiers like table and column names in variables which you also want to secure in case they based on user input
 
 For all of them you may also need to have a very easy solution to make it impossible a SQL Injection find a way into your code.

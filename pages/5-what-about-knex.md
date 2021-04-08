@@ -30,5 +30,7 @@ It's horror to write if you know SQL and need to find out how to transform your 
 
 `knex` is also NOT an abstraction layer to work with different databases, e.g. the `.query()` method returns the raw result object of the database driver. And different database driver have different structure of these result object, so you need different access to the resulting rows or inserted IDs.
 
+So as conclusion `knex` makes it a bit easier to build dynamic queries. But has a lot of tradeoffs which makes it only good in very nichy scenarios.
+
 
 [Next](./6-migrations.md)

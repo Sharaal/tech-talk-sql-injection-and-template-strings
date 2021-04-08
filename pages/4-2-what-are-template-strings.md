@@ -1,4 +1,4 @@
-[Previous](./3-how-solve-it-with-pg.md)
+[Previous](./4-1-first-a-little-sidenote-query-with-object-parameter.md)
 
 
 # What are Template Strings
@@ -25,4 +25,4 @@ function tagName(textFragments, ...values) {
 Is it only me that it comes directly in mind we could use this for SQL Statements? Let's start a quick coding excursion.
 
 
-[Next](./5-1-first-a-little-sidenote-query-with-object-parameter.md)
+[Next](./4-3-how-we-want-it-looks-like.md)

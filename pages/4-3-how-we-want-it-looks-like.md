@@ -1,4 +1,4 @@
-[Previous](./5-1-first-a-little-sidenote-query-with-object-parameter.md)
+[Previous](./4-2-what-are-template-strings.md)
 
 
 # MVP of a SQL Template String library
@@ -21,4 +21,4 @@ console.log(result.rows)
 It's easy, it's our first example with just adding the tag for the Template String naming `sql`.
 
 
-[Next](./5-3-the-tag-function.md)
+[Next](./4-4-the-tag-function.md)

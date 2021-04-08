@@ -1,4 +1,4 @@
-[Previous](./4-what-are-template-strings.md)
+[Previous](./3-how-solve-it-with-pg.md)
 
 
 # MVP of a SQL Template String library
@@ -19,4 +19,4 @@ console.log(result.rows)
 ```
 
 
-[Next](./5-2-how-we-want-it-looks-like.md)
+[Next](./4-2-what-are-template-strings.md)

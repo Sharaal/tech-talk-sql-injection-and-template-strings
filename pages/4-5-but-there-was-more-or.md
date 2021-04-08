@@ -51,4 +51,4 @@ await sql.delete('users', { id })
 ```
 
 
-[Next](./6-what-about-knex.md)
+[Next](./5-what-about-knex.md)

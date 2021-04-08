@@ -1,4 +1,4 @@
-[Previous](./6-what-about-knex.md)
+[Previous](./5-what-about-knex.md)
 
 
 # Migrations
@@ -19,4 +19,4 @@ Alternatively you transform all existing data from the old to the new schema. An
 So yes, in my opinion every persistance layer, relation or schema less, needs migrations.
 
 
-[Next](./8-adminer.md)
+[Next](./7-adminer.md)

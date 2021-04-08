@@ -1,4 +1,4 @@
-[Previous](./5-2-how-we-want-it-looks-like.md)
+[Previous](./4-3-how-we-want-it-looks-like.md)
 
 
 # MVP of a SQL Template String library
@@ -23,4 +23,4 @@ function sql(textFragments, ...values) {
 And... that's it. This function is the MVP of a SQL Template String library.
 
 
-[Next](./5-4-but-there-was-more-or.md)
+[Next](./4-5-but-there-was-more-or.md)

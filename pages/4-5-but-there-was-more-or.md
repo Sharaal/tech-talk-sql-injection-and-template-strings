@@ -25,7 +25,7 @@ And what about we accidentally forget to tagging a query with the `sql`?
 ```javascript
 const email = 'tech-talk@sharaal.de'
 
-const query = `SELECT * FROM users WHERE email = "${email}"`
+const query = `SELECT * FROM users WHERE email = ${email}`
 const users = await sql.any(query)
 
 // Own sql.query function throwing an error if we forgot the tagging

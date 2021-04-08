@@ -5,7 +5,7 @@
 
 ## First a little sidenote, query with object parameter
 
-One additional info, because we will use of it here: `pg` also allows to give the `query()` function an object as parameter:
+One additional info, because we will use of it here: `pg` also allows to give the `query()` function an object as parameter instead of two parameters:
 
 ```javascript
 const email = 'tech-talk@sharaal.de'

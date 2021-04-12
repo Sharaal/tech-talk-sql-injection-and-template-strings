@@ -7,10 +7,11 @@ require('dotenv').config()
 
   const query = "SELECT * FROM users"
 
-
-
   const result = await client.query(query)
+
+
 
   console.log(query)
   console.log(result.rows)
+  await client.end()
 })()
